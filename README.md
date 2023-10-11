@@ -32,7 +32,7 @@
 ## \[GET] /today_file_auto
 > 取得今日預處理好天氣資訊
 
-對文字資料已經做好預處理的API，讀取圖片請參考 - [[GET] /map_plots/<aggregation_map_data>](https://github.com/wantZzz/TwCwa-weather-api-modification#GET-map_plotsltaggregation_map_datagt)
+對文字資料已經做好預處理的API，讀取圖片請參考 - [[GET] /map_plots/<aggregation_map_data>](https://github.com/wantZzz/TwCwa-weather-api-modification#get-map_plotsaggregation_map_data)
 
 ##### 資料輸入值
 - 無輸入值或參數
@@ -76,7 +76,7 @@
 ## \[GET] /today_file
 > 取得今日天氣資訊
 
-取得今日天氣資訊的API，讀取圖片請參考 - [[GET] /map_plots/<aggregation_map_data>](https://github.com/wantZzz/TwCwa-weather-api-modification#GET-map_plotsltaggregation_map_datagt) 
+取得今日天氣資訊的API，讀取圖片請參考 - [[GET] /map_plots/<aggregation_map_data>](https://github.com/wantZzz/TwCwa-weather-api-modification#get-map_plotsltaggregation_map_datagt) 
 
 ##### 資料輸入值
 - 無輸入值或參數
@@ -124,7 +124,7 @@
 
 取得今日降雨量圖片資料
 ##### 資料輸入值
-PoP_map_data: 請先取得 [[GET] /today_file](#GET-today_file) 與 [[GET] /today_file_auto](https://github.com/wantZzz/TwCwa-weather-api-modification#GET-today_file_auto) 的資料，其中的`PoP_map_data`的連結與此處參數是相對應的
+PoP_map_data: 請先取得 [[GET] /today_file](https://github.com/wantZzz/TwCwa-weather-api-modification#get-today_file) 與 [[GET] /today_file_auto](https://github.com/wantZzz/TwCwa-weather-api-modification#get-today_file_auto) 的資料，其中的`PoP_map_data`的連結與此處參數是相對應的
 
 ##### 範例資料
 `https://weatherapiv2.10935179.repl.co/pop_plots/2023-10-07_08_0.png`
@@ -138,7 +138,7 @@ PoP_map_data: 請先取得 [[GET] /today_file](#GET-today_file) 與 [[GET] /toda
 
 取得今日平均溫度、最高/最低溫、天氣概況圖片資料
 ##### 資料輸入值
-Tem_weather_map_data: 請先取得 [[GET] /today_file](#GET-today_file) 與 [[GET] /today_file_auto](https://github.com/wantZzz/TwCwa-weather-api-modification#GET-today_file_auto) 的資料，其中的`Tem_weather_map_data`的連結與此處參數是相對應的
+Tem_weather_map_data: 請先取得 [[GET] /today_file](https://github.com/wantZzz/TwCwa-weather-api-modification#get-today_file) 與 [[GET] /today_file_auto](https://github.com/wantZzz/TwCwa-weather-api-modification#get-today_file_auto) 的資料，其中的`Tem_weather_map_data`的連結與此處參數是相對應的
 
 ##### 範例資料
 `https://weatherapiv2.10935179.repl.co/v2_plots/2023-10-07_08_0.png`
@@ -152,7 +152,7 @@ Tem_weather_map_data: 請先取得 [[GET] /today_file](#GET-today_file) 與 [[GE
 
 取得今日`/v2_plots`與`/pop_plots`的組合圖片資料
 ##### 資料輸入值
-aggregation_map_data: 請先取得 [[GET] /today_file](#GET-today_file) 與 [[GET] /today_file_auto](https://github.com/wantZzz/TwCwa-weather-api-modification#GET-today_file_auto) 的資料，其中的`aggregation_map_data`的連結與此處參數是相對應的
+aggregation_map_data: 請先取得 [[GET] /today_file](https://github.com/wantZzz/TwCwa-weather-api-modification#get-today_file) 與 [[GET] /today_file_auto](https://github.com/wantZzz/TwCwa-weather-api-modification#get-today_file_auto) 的資料，其中的`aggregation_map_data`的連結與此處參數是相對應的
 
 ##### 範例資料
 `https://weatherapiv2.10935179.repl.co/map_plots/2023-10-07_08_0.png`
