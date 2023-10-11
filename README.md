@@ -27,6 +27,7 @@
 - `PictureMaker_api` 這資料夾內是製圖端的 API 程式，接受主對外服務的資料並返回處理好的圖片資料(不負責合成圖片)
   - 主 API 程式碼檔為 `PictureMaker_flask.py`
   - 製圖的程式碼檔為 `python_html2img.py`
+  - 降雨量圖、天氣溫度圖的製圖的範本的html檔為 `tw_map_v1.html`, `tw_map_v2.html`
 
 ## \[GET] /today_file_auto
 > 取得今日預處理好天氣資訊
