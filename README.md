@@ -41,16 +41,16 @@
 `https://weatherapiv2.10935179.repl.co/today_file_auto`
 
 ```json
-{"PoP_map_data":["pop_plots/2023-07-31_07_0.png"...],
- "Tem_weather_map_data":["v2_plots/2023-07-31_07_0.png"...],
- "aggregation_map_data":["map_plots/2023-07-31_07_0.png"...],
+{"PoP_map_data":["pop_plots/2023-07-31_07_0.png", ...],
+ "Tem_weather_map_data":["v2_plots/2023-07-31_07_0.png", ...],
+ "aggregation_map_data":["map_plots/2023-07-31_07_0.png", ...],
  "str_from_of_data":{"2023-07-31 06:00:00":{"start_time":"2023-07-31 06:00:00",
                                             "end_time":"2023-07-31 18:00:00",
                                             "time_range":"07月31日 06點 - 07月31日 18點",
                                             "str_from_of_Tmp":"嘉義縣 - 33-26°C...",
                                             "str_from_of_Wx":"嘉義縣 - 多雲短暫陣雨...",
                                             "str_from_of_pop":"嘉義縣 - 30%..."
-                                           },...
+                                           }, ...
                     }
 }
 ```
@@ -85,16 +85,16 @@
 `https://weatherapiv2.10935179.repl.co/today_file`
     
 ```json
-{"PoP_map_data":["pop_plots/2023-07-31_07_0.png"...],
- "Tem_weather_map_data":["v2_plots/2023-07-31_07_0.png"...],
- "aggregation_map_data":["map_plots/2023-07-31_07_0.png"...],
+{"PoP_map_data":["pop_plots/2023-07-31_07_0.png", ...],
+ "Tem_weather_map_data":["v2_plots/2023-07-31_07_0.png", ...],
+ "aggregation_map_data":["map_plots/2023-07-31_07_0.png", ...],
  "list_from_of_data":{"2023-07-31 06:00:00":{"start_time":"2023-07-31 06:00:00",
                                              "end_time":"2023-07-31 18:00:00",
                                              "time_range":"07月31日 06點 - 07月31日 18點",
-                                             "location_name":["嘉義縣"...],
-                                             "Tmp":["33-26°C"...],
-                                             "Wx":["多雲短暫陣雨"...],
-                                             "pop":["30%"...]},...
+                                             "location_name":["嘉義縣", ...],
+                                             "Tmp":["33-26°C", ...],
+                                             "Wx":["多雲短暫陣雨", ...],
+                                             "pop":["30%", ...]}, ...
                     }
 }
 ```
