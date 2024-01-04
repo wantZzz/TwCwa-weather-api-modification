@@ -4,7 +4,8 @@
 提供目前開放資料之擷取API
 資料來源: [中央氣象局開放資料平臺之資料擷取API](https://opendata.cwb.gov.tw/dist/opendata-swagger.html)
 
-資料更新頻率觀察為一天四次，分別在上午/下午6、12點更新，首頁網址: <https://weatherapiv2.10935179.repl.co>
+資料更新頻率觀察為一天四次，分別在上午/下午6、12點更新，首頁網址: [weatherapiv2 on replit](https://24a5654c-4270-4886-89a0-4d7b7a3a00ce-00-1cm4qipxkinn.janeway.replit.dev/)
+
 若連上首頁網址且顯示 `API site is aLive!` 即代表 API 正常運作，驗證網站在線請用首頁網址以節省主機資源
 當前API版本 : v1.0.2
 
@@ -129,7 +130,7 @@ PoP_map_data: 請先取得 [[GET] /today_file](https://github.com/wantZzz/TwCwa-
 ##### 範例資料
 `https://weatherapiv2.10935179.repl.co/pop_plots/2023-10-07_08_0.png`
     
-![pop_plots範例](https://weatherapiv2.10935179.repl.co/pop_plots/2023-10-07_08_0.png)
+![pop_plots範例](https://24a5654c-4270-4886-89a0-4d7b7a3a00ce-00-1cm4qipxkinn.janeway.replit.dev/pop_plots/2023-10-07_08_0.png)
     
 ---
     
@@ -143,7 +144,7 @@ Tem_weather_map_data: 請先取得 [[GET] /today_file](https://github.com/wantZz
 ##### 範例資料
 `https://weatherapiv2.10935179.repl.co/v2_plots/2023-10-07_08_0.png`
     
-![v2_plots範例](https://weatherapiv2.10935179.repl.co/v2_plots/2023-10-07_08_0.png)
+![v2_plots範例](https://24a5654c-4270-4886-89a0-4d7b7a3a00ce-00-1cm4qipxkinn.janeway.replit.dev/v2_plots/2023-10-07_08_0.png)
     
 ---
     
@@ -157,4 +158,4 @@ aggregation_map_data: 請先取得 [[GET] /today_file](https://github.com/wantZz
 ##### 範例資料
 `https://weatherapiv2.10935179.repl.co/map_plots/2023-10-07_08_0.png`
     
-![map_plots範例](https://weatherapiv2.10935179.repl.co/map_plots/2023-10-07_08_0.png)
+![map_plots範例](https://24a5654c-4270-4886-89a0-4d7b7a3a00ce-00-1cm4qipxkinn.janeway.replit.dev/map_plots/2023-10-07_08_0.png)
